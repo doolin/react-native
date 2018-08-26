@@ -1,9 +1,15 @@
 import React from 'react';
-import { AppRegistry } from 'react-native';
-import Header from './src/components/header';
+import { AppRegistry, View } from 'react-native';
+import Header from './src/components/Header';
+import AlbumList from './src/components/AlbumList'
+
+// https://rallycoding.herokuapp.com/api/music_albums
 
 const App = () => (
-    <Header headerText={'Al Bums'} />
+    <View>
+        <Header headerText={'Al Bums'} />
+        <AlbumList />
+    </View>
 );
 
 AppRegistry.registerComponent('albums', () => App);
