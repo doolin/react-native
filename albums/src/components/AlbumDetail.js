@@ -31,7 +31,7 @@ const AlbumDetail = ({ album }) => {
             </CardSection>
 
             <CardSection>
-                <Button />
+                <Button onPress={() => console.log('from album detail')}/>
             </CardSection>
         </Card>
 
