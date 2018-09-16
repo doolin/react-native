@@ -3,7 +3,7 @@ import { View, TextInput } from 'react-native';
 import { Button, Card, CardSection } from './common';
 
 class LoginForm extends Component {
-    state = { text; '' };
+    state = { text: '' };
 
     render () {
         return (
