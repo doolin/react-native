@@ -9,6 +9,7 @@ class LoginForm extends Component {
           <Input
             label="Email"
             placeHolder="email@gmail.com"
+            onChangeText={this.onEmailChange.bind(this)}
           />
         </CardSection>
 
